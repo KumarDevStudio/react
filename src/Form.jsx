@@ -6,7 +6,7 @@ const Form = () => {
     name: '',
     email: '',
     password: ''
-  });
+  });    
 
   const [error, setError] =useState({});
 
@@ -75,9 +75,10 @@ return error
             {error.name}
           </p>)}
         </div>
-
+<P>jhjjhsdk</P>
 
         <div style={{ marginBottom: '15px' }}>
+          <button type='submit'>su</button>
           <label htmlFor="email" style={{ display: 'block', color: '#333', fontWeight: 'bold' }}>Email</label>
           <input
             type="email"
